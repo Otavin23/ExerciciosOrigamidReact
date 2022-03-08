@@ -28,9 +28,9 @@ flex-direction:column ;
     height: 100%;
   }
 `
-const Result = styled.div`` 
-
-
+const Result = styled.div`
+  color: Red
+`
 const App = ()=>{
   const [data, setData] = useState([])
 
